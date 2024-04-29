@@ -1,0 +1,93 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../image/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+title{
+  background-color: #8dabf8;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.genre-buttons {
+  margin-top: 15px;
+}
+
+.genre-button {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-color: transparent;
+  border: 2px solid #4679f8;
+  border-radius: 50px;
+  color: black;
+  cursor: pointer;
+  transition: background-color 1s ease;
+}
+
+.genre-button:hover {
+  background-color: #8dabf8;
+}
+
+.genre-button.selected {
+  background-color: #4679f8;
+}
+
+
+
+#submit-btn {
+  background-color: #4679f8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#submit-btn:hover {
+  background-color: #0048ff;
+}
